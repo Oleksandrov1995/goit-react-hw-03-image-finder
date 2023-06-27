@@ -4,7 +4,7 @@ import css from './Loader.module.css';
 export const Loader = () => (
   <div className={css.loader}>
    <FallingLines
-  color="#4fa94d"
+  color="blue"
   width="100"
   visible={true}
   ariaLabel='falling-lines-loading'
